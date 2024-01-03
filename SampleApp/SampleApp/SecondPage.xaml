@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SampleApp.SecondPage"
+             Title="SecondPage">
+    <VerticalStackLayout>
+        <Button 
+            x:Name="OpenModalBtn"
+            Clicked="OpenModalBtn_Clicked"
+            Text="Open Modal"
+            HorizontalOptions="Center" 
+            VerticalOptions="Center"></Button>
+    </VerticalStackLayout>
+</ContentPage>
